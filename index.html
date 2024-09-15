@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>DOM6</title>
+</head>
+<body>
+
+    <div class="header-container">
+        <header>
+            <p><i class='bx bxl-apple'></i></p>
+            <a href="#">Store</a>
+            <a href="#">Mac</a>
+            <a href="#">iPad</a>
+            <a href="#">iPhone</a>
+            <a href="#">Watch</a>
+            <a href="#">Vision</a>
+            <a href="#">AirPods</a>
+            <a href="#">TV & Home</a>
+            <a href="#">Entertainment</a>
+            <a href="#">Accessories</a>
+            <a href="#">Support</a>
+            <p><i class='bx bx-search'></i></p>
+            <p><i class='bx bx-shopping-bag'></i></p>
+        </header>
+
+        <div class="offer_box">
+            <div class="offer-text">
+                <p>Carrier Deals at Apple</p>
+                <a href="#">See all deals<i class='bx bx-plus-circle'></i></a>
+            </div>
+            <div class="offer_item">
+                <img src="./1logo.png" alt="">
+                <p>Save up to $1000 after trade-in.footnote</p>
+            </div>
+            <div class="offer_item">
+                <img src="./2logo.png" alt="">
+                <p>Save up to $1000. No trade-in needed.Footnote</p>
+            </div>
+            <div class="offer_item">
+                <img src="./3logo.png" alt="">
+                <p>Save up to $1000 after trade-in.footnote</p>
+            </div>
+            <div class="offer_item">
+                <img src="./4logo.png" alt="">
+                <p>Save up to $1000 after trade-in.footnote</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main-text">
+            <p class="new">New</p>
+            <h1>Pre-order iPhone 16 Pro.</h1>
+            <div class="saved">
+                <p>Already have an iPhone saved?</p><a href="#">View<i class='bx bx-chevron-right'></i></a>
+            </div>
+            <p class="available">Available starting 9.20.</p>
+            <p class="price">From $999 or $41.62/mo.per month for 24 mo.*</p>
+        </div>
+
+        <div class="main-grid">
+            <img src="./main-img.png" alt="" style="height: 45%; border-radius: 20px; position: sticky; top: 150px;">
+            <div class="product-info">
+                <h3>Model. <span style="color: #86868b;">Which is best for you?<span></h3>
+                <div class="btn-box">
+                    <button class="btn-text active">
+                        <div class="name">
+                            <p class="model">iPhone 16 Pro</p>
+                            <p class="display">6.3-inch display</p> 
+                        </div>
+                        <div class="per_month">
+                            <p>From $999 <br> or $41.62/mo. <br>for 24 mo.*</p>
+                        </div>
+                    </button>
+                    <button class="btn-text">
+                        <div class="name">
+                            <p class="model">iPhone 16 Pro Max</p>
+                            <p class="display">6.9-inch display</p>
+                        </div>
+                        <div class="per_month">
+                            <p>From $1199 <br> or $49.95/mo. <br> for 24 mo.*</p>
+                        </div>
+                    </button>
+                </div>
+                <button class="help_info">
+                    <div class="help_choosing">
+                        <p>Need help choosing a model?</p>
+                        <i class='bx bx-plus-circle'></i>
+                    </div>
+                    <p class="screen_size">Explore the differences in screen size and <br> battery life</p>
+                </button>
+                <h3>Finish. <span style="color: #86868b;">Pick your favorite.</span></h3>
+                <h2 style="margin-top: 30px; display: flex; gap: 5px;">Color - <div class="color">Desert Titanium</div></h2>
+                <div class="circles">
+                    <div class="desert-circle" style="background-color: #FAD5A5;"></div>
+                    <div class="natural-circle" style="background-color:  #878681;"></div>    
+                    <div class="white-circle" style="background-color: #F3F4F7;"></div>
+                    <div class="black-circle" style="background-color: #54544e;"></div>
+                </div>
+                <h3>Storage. <span style="color: #86868b; margin-top: 100px;">How much space do <br> you need?</span></h3>
+                <div class="storage-box">
+                    <button class="active-btn">
+                        <p class="storage">128GB</p>
+                        <p class="per_month">From $999 <br> or $41.62/mo. <br> for 24 mo.</p>
+                    </button>
+                    <button>
+                        <p class="storage">256GB</p>
+                        <p class="per_month">From $1099 <br> or $45.79/mo. <br> for 24 mo.</p>
+                    </button>
+                    <button>
+                        <p class="storage">512GB</p>
+                        <p class="per_month">From $1299 <br> or $54.12/mo. <br> for 24 mo.</p>
+                    </button>
+                    <button>
+                        <p class="storage">1TB</p>
+                        <p class="per_month">From $1499 <br> or $62.45/mo. <br> for 24 mo.</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
